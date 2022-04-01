@@ -9,7 +9,7 @@ font-size : 300%;
 h3 { text-align: center;
 }
 
-.intro { margin-left: 30px;
+.intro { margin-left: 20px;
 }
 
 .container { position: relative;
@@ -17,7 +17,7 @@ h3 { text-align: center;
     display: flex;
 }
 
-table { background-color: rgb(193, 41, 41);
+table { background-color: rgb(88, 32, 32);
     
 }
 
@@ -44,9 +44,25 @@ em { color :rgb(37, 37, 51);
 .textbox { padding-left: 10px;}
 
 .titlebox { 
-    background: rgb(91, 30, 30);
+    background: rgb(91, 29, 29);
     padding: 1px;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     }
 
-   
+ .farmerbox { 
+     position: relative;
+     
+    padding:20px;
+      background: rgb(255, 141, 93);
+     
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}  
+
+.footer { border: 5px solid;
+    padding: 20px;
+}
+
+.soulign { text-decoration: underline;
+
+}
+
