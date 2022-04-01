@@ -12,13 +12,16 @@ h3 { text-align: center;
 .intro { margin-left: 30px;
 }
 
-ul { 
+.container { position: relative;
+    padding: 20px;
+    display: flex;
 }
 
-.image { 
+table { background-color: rgb(193, 41, 41);
+    
 }
 
-.sec2 { 
+.imgcontainer { padding-left: 100px;
 }
 
 em { color :rgb(37, 37, 51);
@@ -39,5 +42,11 @@ em { color :rgb(37, 37, 51);
 }
 
 .textbox { padding-left: 10px;}
+
+.titlebox { 
+    background: rgb(91, 30, 30);
+    padding: 1px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    }
 
    
