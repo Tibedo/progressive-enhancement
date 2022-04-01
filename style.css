@@ -13,18 +13,18 @@ h3 { text-align: center;
 }
 
 .container { position: relative;
-    padding: 20px;
+    padding: 10px;
     display: flex;
 }
 
-table { background-color: rgb(88, 32, 32);
+table { background-color: rgb(252, 105, 0);
     
 }
 
 .imgcontainer { padding-left: 100px;
 }
 
-em { color :rgb(37, 37, 51);
+em { color :rgb(56, 44, 86);
 }
 
 .box { position: relative;
@@ -65,3 +65,26 @@ em { color :rgb(37, 37, 51);
 .soulign { text-decoration: underline;
 }
 
+p { 
+    font-family: serif;
+  font-size: auto;
+  color: rgb(18, 1, 49);
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color:rgb(0, 255, 0);
+}
+
+a:hover {
+    color:white;
+    font-size: 150%;
+}
+
+a:active {
+    color:gray;
+    font-size: 150%;
+}
