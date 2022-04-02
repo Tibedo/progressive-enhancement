@@ -1,7 +1,5 @@
 * { 
-    
-    
-font-family :Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body { 
@@ -142,21 +140,21 @@ a {
     display: inline-block;
     font-size: 150%;
 }
-a:link {
+.finalslinks:link {
     color: red;
 }
 
-a:visited {
+.finalslinks:visited {
     color:rgb(105, 2, 119);
 }
 
-a:hover {
-    color:white;
+.finalslinks:hover {
+    color:rgb(76, 76, 76);
     font-size: 200%;
       
 }
 
-a:active {
+.finalslinks:active {
     color:gray;
     font-size: 200%;
 }
@@ -187,13 +185,34 @@ body  {
 
 
 
-.good:link:visited
+.good:link
 {
     color: green;
 }
 
-.bad:link:visited {
+.bad:link {
     color: red;
+}
+
+.good:visited 
+{
+    color: green;
+}
+
+.bad:visited  {
+
+    color: red;
+}
+
+.good:hover
+{
+    color: green;
+    font-size: 155%;
+}
+
+.bad:hover {
+    color: red;
+    font-size: 155%;
 }
 
 #yellow { 
@@ -206,32 +225,30 @@ body  {
     margin:25px 0;
     font-size: 0.9em;
     min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
 }
 
-.tablecat thead tr {
-    background-color: rgb(154, 153, 153);
-    color: #fff;
-    text-align: left;
-    font-weight: bold;
-}
 
 .tablecat td {
     padding: 12px 15px;
     
 }
 
-.tablecat tr tbody { 
-    border-bottom: 1px solid rgb(191, 188, 188);
-}
 
 .god { 
     background-color: #fff;
+    font-weight: bold;
 }
 
 .evil { 
     background-color: rgb(123, 123, 123);
+    font-weight: bold;
 }
 
 .cat { 
     background-color: #fff;
+    font-weight: bold;
 }
+
