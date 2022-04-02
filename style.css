@@ -8,7 +8,8 @@ body {
     background: #fff;
     background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p2/1987783-abstrait-blanc-gris-fond-bande-moderne-degrade-couleur-ligne-oblique-texture-gratuit-vectoriel.jpg");
     background-size:cover;
-    
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 h1 { font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -193,4 +194,44 @@ body  {
 
 .bad:link:visited {
     color: red;
+}
+
+#yellow { 
+    background-color: yellow;
+}
+
+.tablecat {
+    background-color: #fff;
+    border-collapse: collapse;
+    margin:25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+
+.tablecat thead tr {
+    background-color: rgb(154, 153, 153);
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tablecat td {
+    padding: 12px 15px;
+    
+}
+
+.tablecat tr tbody { 
+    border-bottom: 1px solid rgb(191, 188, 188);
+}
+
+.god { 
+    background-color: #fff;
+}
+
+.evil { 
+    background-color: rgb(123, 123, 123);
+}
+
+.cat { 
+    background-color: #fff;
 }
