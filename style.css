@@ -1,9 +1,20 @@
-* { background : rgb(247, 132, 79); 
+* { 
+    
+    
 font-family :Arial, Helvetica, sans-serif;
 }
+
+body { 
+    background: #fff;
+    background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p2/1987783-abstrait-blanc-gris-fond-bande-moderne-degrade-couleur-ligne-oblique-texture-gratuit-vectoriel.jpg");
+    background-size:cover;
+    
+}
+
 h1 { font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-align :center;
 font-size : 300%;
+background-color: rgb(228, 224, 224);
 }
 
 h3 { text-align: center;
@@ -12,9 +23,11 @@ h3 { text-align: center;
 .gorius {
     width: 50%;
     border: 5px solid;
+    border-left-style:groove;
+    border-left-color: #B22222;
     background-color: rgb(181, 181, 181);
     margin: 0 auto;
-    padding: 5px;
+    padding: 20px;
    
     
 }
@@ -28,10 +41,13 @@ h3 { text-align: center;
 }
 
 .content {
+   
     width: 50%;
     border: 5px solid;
+    border-left-style:groove;
+    border-left-color: #B22222;
     margin-left: 300px;
-    padding: 5px;
+    padding: 10px;
     
     background-color: rgb(182, 182, 182);
     
@@ -70,7 +86,7 @@ em { color :rgb(56, 44, 86);
       
       padding: 20px;
       box-sizing: border-box;
-      background: rgb(91, 30, 30);
+      background: rgb(232, 232, 232);
       border-radius: 4px;
       box-shadow: 0 5px 15px rgba(0,0,0,.5);
       display: flex;
@@ -83,16 +99,17 @@ em { color :rgb(56, 44, 86);
 .textbox { padding-left: 10px;}
 
 .titlebox { 
-    background: rgb(91, 29, 29);
+    
+    background: rgb(40, 36, 36);
     padding: 1px;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
     }
 
- .farmerbox { 
+ .farmerbox .soulign { 
      position: relative;
      
     padding:20px;
-      background: rgb(255, 141, 93);
+      background: rgb(216, 216, 216);
      
       box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }  
@@ -101,13 +118,17 @@ em { color :rgb(56, 44, 86);
     padding: 20px;
     font-size: 160%;
     background-color: rgb(181, 181, 181);
+    border-left-style:groove;
+    border-left-color: #B22222;
 }
 
 #alan, .good, .bad{
     background-color: rgb(181, 181, 181);
 }
 
-.soulign { text-decoration: underline;
+.soulign { 
+    background: rgb(146, 144, 142);
+    text-decoration: underline;
 }
 
 p { 
@@ -156,16 +177,14 @@ transition: width .3s;
 
 }
 
-body {
+body  {
+
+
     width: 90%;
     margin: auto;
 }
 
-.linkimg {
-    
-    margin-left: 3%;
-    display:block
-}
+
 
 .good:link:visited
 {
