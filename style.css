@@ -17,6 +17,11 @@ background-color: rgb(228, 224, 224);
 }
 
 h3 { text-align: center;
+
+}
+
+.image1 { 
+    width: 80%;
 }
 
 .gorius {
@@ -63,6 +68,7 @@ ul { background-color: rgb(181, 181, 181);
 }
 
 li { background-color: rgb(181, 181, 181);
+    margin-top: 20px;
       
 }
 
@@ -95,6 +101,10 @@ em { color :rgb(56, 44, 86);
     padding-left: 50px;
 }
 
+.rock { 
+    width:100%;
+}
+
 .textbox { padding-left: 10px;}
 
 .titlebox { 
@@ -102,6 +112,11 @@ em { color :rgb(56, 44, 86);
     background: rgb(40, 36, 36);
     padding: 1px;
     box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    }
+
+    .farmer {
+        width: 40%;
+        margin-left: 30%;
     }
 
  .farmerbox .soulign { 
