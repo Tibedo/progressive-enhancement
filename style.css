@@ -9,19 +9,58 @@ font-size : 300%;
 h3 { text-align: center;
 }
 
-.intro { margin-left: 20px;
+.gorius {
+    width: 50%;
+    border: 5px solid;
+    background-color: rgb(181, 181, 181);
+    margin: 0 auto;
+    padding: 5px;
+   
+    
+}
+
+.intro { 
+    
+    margin: 0 auto;
+    
+    font-size: 160%;
+    background-color: rgb(181, 181, 181);
+}
+
+.content {
+    width: 50%;
+    border: 5px solid;
+    margin-left: 300px;
+    padding: 5px;
+    
+    background-color: rgb(182, 182, 182);
+    
 }
 
 .container { position: relative;
     padding: 10px;
     display: flex;
-}
-
-table { background-color: rgb(252, 105, 0);
     
 }
 
-.imgcontainer { padding-left: 100px;
+ul { background-color: rgb(181, 181, 181);
+      
+}
+
+li { background-color: rgb(181, 181, 181);
+      
+}
+
+#fourtypes  { 
+    background-color: rgb(181, 181, 181);
+    
+      
+}
+
+
+.imgcontainer { 
+    
+    padding-left: 50px;
 }
 
 em { color :rgb(56, 44, 86);
@@ -60,6 +99,12 @@ em { color :rgb(56, 44, 86);
 
 .footer { border: 5px solid;
     padding: 20px;
+    font-size: 160%;
+    background-color: rgb(181, 181, 181);
+}
+
+#alan, .good, .bad{
+    background-color: rgb(181, 181, 181);
 }
 
 .soulign { text-decoration: underline;
@@ -71,20 +116,62 @@ p {
   color: rgb(18, 1, 49);
 }
 
+a {
+    display: inline-block;
+    font-size: 150%;
+}
 a:link {
     color: red;
 }
 
 a:visited {
-    color:rgb(0, 255, 0);
+    color:rgb(105, 2, 119);
 }
 
 a:hover {
     color:white;
-    font-size: 150%;
+    font-size: 200%;
+      
 }
 
 a:active {
     color:gray;
-    font-size: 150%;
+    font-size: 200%;
+}
+
+a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+background: #fff;
+transition: width .3s;
+
+
+}
+
+a:hover::after {
+    width: 100%;
+transition: width .3s;
+
+}
+
+body {
+    width: 90%;
+    margin: auto;
+}
+
+.linkimg {
+    
+    margin-left: 3%;
+    display:block
+}
+
+.good:link:visited
+{
+    color: green;
+}
+
+.bad:link:visited {
+    color: red;
 }
