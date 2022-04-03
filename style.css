@@ -24,6 +24,8 @@ h3 { text-align: center;
     width: 80%;
 }
 
+
+/* Box 1 Gorius */
 .gorius {
     width: 50%;
     border: 5px solid;
@@ -57,6 +59,7 @@ h3 { text-align: center;
     
 }
 
+/* Box list + pic */
 .container { position: relative;
     padding: 10px;
     display: flex;
@@ -87,6 +90,8 @@ li { background-color: rgb(210, 210, 210);
 em { color :rgb(56, 44, 86);
 }
 
+
+/* Box of rock with text */
 .box { position: relative;
       
       padding: 20px;
@@ -131,6 +136,8 @@ em { color :rgb(56, 44, 86);
       box-shadow: 0 5px 15px rgba(0,0,0,.5);
 }  
 
+
+/* Box Alan */
 .footer { border: 5px solid;
     padding: 20px;
     font-size: 160%;
@@ -150,7 +157,7 @@ em { color :rgb(56, 44, 86);
 
 p { 
     font-family: serif;
-  font-size: auto;
+  
   color: rgb(18, 1, 49);
 }
 
@@ -237,6 +244,8 @@ body  {
     background-color: yellow;
 }
 
+
+/* TableCat */
 .tablecat {
     background-color: #fff;
     border-collapse: collapse;
@@ -270,6 +279,8 @@ body  {
     font-weight: bold;
 }
 
+
+/* Quotations */
 .neighbors {
     display: block;
     width: 50%;
