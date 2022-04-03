@@ -193,7 +193,27 @@ transition: width .3s;
 
 }
 
-a:hover::after {
+a:hover::after  {
+    width: 100%;
+transition: width .3s;
+
+}
+
+li {
+    font-size: 140%;
+}
+li::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+background: #fff;
+transition: width .3s;
+
+
+}
+
+li:hover::after  {
     width: 100%;
 transition: width .3s;
 
