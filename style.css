@@ -253,6 +253,7 @@ body  {
     border-radius: 5px 5px 0 0;
     overflow: hidden;
     box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+    margin-bottom: 30px;
 }
 
 
@@ -303,5 +304,9 @@ body  {
     border-left: 3px;
     border-left-style:groove;
     border-left-color: #B22222;
+}
+
+.narrative {
+    text-align: center;
 }
 
