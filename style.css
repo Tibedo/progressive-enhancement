@@ -3,7 +3,7 @@
 }
 
 body { 
-    background: #fff;
+    background: rgb(173, 170, 170);
     background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p2/1987783-abstrait-blanc-gris-fond-bande-moderne-degrade-couleur-ligne-oblique-texture-gratuit-vectoriel.jpg");
     background-size:cover;
     background-repeat: no-repeat;
@@ -21,7 +21,7 @@ h3 { text-align: center;
 }
 
 .image1 { 
-    width: 80%;
+    width: 100%;
 }
 
 
@@ -29,8 +29,8 @@ h3 { text-align: center;
 .gorius {
     width: 50%;
     border: 5px solid;
-    border-left-style:groove;
-    border-left-color: #6e0202;
+    border-style:double;
+    border-color: black;
     background-color: rgb(210, 210, 210);
     margin: 0 auto;
     padding: 20px;
@@ -40,7 +40,7 @@ h3 { text-align: center;
 
 .intro { 
     
-    margin: 0 auto;
+   text-align: center;
     
     font-size: 160%;
     background-color: rgb(210, 210, 210);
@@ -50,11 +50,8 @@ h3 { text-align: center;
    
     width: 50%;
     border: 5px solid;
-    border-left-style:groove;
-    border-left-color: #530202;
-  
+    border-left-style:dashed; 
     padding: 10px;
-    
     background-color: rgb(212, 210, 210);
     
 }
@@ -77,6 +74,7 @@ li { background-color: rgb(210, 210, 210);
 
 #fourtypes  { 
     background-color: rgb(210, 210, 210);
+    margin-left: 30px;
     
       
 }
@@ -140,10 +138,10 @@ em { color :rgb(56, 44, 86);
 /* Box Alan */
 .footer { border: 5px solid;
     padding: 20px;
-    font-size: 160%;
+    font-size: 120%;
     background-color: rgb(210, 210, 210);
-    border-left-style:groove;
-    border-left-color: #B22222;
+    border-left-style:dotted
+    
 }
 
 #alan, .good, .bad{
